@@ -1,0 +1,13 @@
+.contactList {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (min-width: 769px) {
+  .contactList {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}

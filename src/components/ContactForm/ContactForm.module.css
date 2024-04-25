@@ -1,0 +1,56 @@
+.form {
+  margin-left: 30px;
+  margin-top: 10px;
+  max-width: 375px;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  border: 1px solid #2f4f4f;
+  flex-direction: column;
+  width: 390px;
+}
+
+.inputWrapper {
+  position: relative;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.inputWrapper:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+.label {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+.textInput {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: transparent;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.errorNotification {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateY(100%);
+}
+.button {
+  cursor: pointer;
+  font-weight: bold;
+  align-self: center;
+  padding: 0 10px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid #2f4f4f;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #00bfff;
+  color: black;
+}
