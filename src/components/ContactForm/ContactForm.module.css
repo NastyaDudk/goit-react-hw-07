@@ -31,6 +31,7 @@
   background-color: transparent;
   padding: 5px 10px;
   border-radius: 3px;
+  color: black;
 }
 .errorNotification {
   position: absolute;
